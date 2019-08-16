@@ -21,9 +21,9 @@ public class TestController {
         return "success";
     }
 
-    @RequestMapping("/test")
+    @RequestMapping("/login?error")
     public String fun2(){
-        return "success";
+        return "error";
     }
 
 }
